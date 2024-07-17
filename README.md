@@ -58,7 +58,7 @@ This project integrates YOLOv8s and SAM models to create a powerful object detec
 
 ### Lane Detection Using OpenCV 
 1. **Lane Detection Pipeline**
-   Yiu can find All files through: https://github.com/Asmaa-Ali7/Lane_Line_detection   ✈ 👀
+   You can find All files through: https://github.com/Asmaa-Ali7/Lane_Line_detection   ✈ 👀
 2. **Methodology**
     - The lane detection script uses OpenCV to process video frames.
 
