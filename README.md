@@ -14,7 +14,7 @@ This project integrates YOLOv8s and SAM models to create a powerful object detec
 ### Installation Steps ⚒
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/yolo-sam-segmentation.git
+    git clone https://github.com/DINAMOHMD/SAM-YOLOv8s-Project.git
     cd yolo-sam-segmentation
     ```
 
