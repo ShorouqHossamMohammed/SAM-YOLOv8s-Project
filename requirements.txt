@@ -1,0 +1,6 @@
+ultralytics==8.0.196
+roboflow
+numpy
+matplotlib
+opencv-python
+moviepy
