@@ -36,13 +36,13 @@ This project integrates YOLOv8s and SAM models to create a powerful object detec
 
 ### Training the YOLOv8s Model
 1. **Prepare the Dataset**
-    - Ensure the Cityscapes dataset is placed in the `data/cityscapes` directory.
-    - The dataset should be annotated using Roboflow.
+    - The dataset should be annotated using Roboflow. You can download the annotated dataset from [[Roboflow here](https://universe.roboflow.com/new-amina/object-detection-new-amina-dina)](#).
+    - The original dataset can be found on Google Drive [[here](https://drive.google.com/drive/folders/1Oi5mQ5hfkxmf3suYUi6MPn62V8aONu47?usp=drive_link)](#).
 
 2. **Train the Model**
     ```bash
-    python train_yolov8s.py --data data/cityscapes --epochs 50 --batch-size 16
-    ```
+!yolo task = detect mode=train model=yolov8s.pt data=data.yaml epochs=50 imgsz=800 plots=True iou=0.5 conf=0.25
+```
 
 ### Performing Segmentation with SAM
 1. **Segmentation Inference**
